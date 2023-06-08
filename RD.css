@@ -1,0 +1,143 @@
+#InfoRow {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  height: 70px;
+    justify-content: center  ;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#MainRow {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  height: 50px;
+
+    justify-content: center ;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+
+#ActionRow {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  height: 30px;
+
+    justify-content: space-between ;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+#PointsRow {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  height: 280px;
+    justify-content: space-between ;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#PowerNumb1,
+#PowerNumb2 {
+  display:inline;
+  width: 30%;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: greenyellow;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid black;
+
+
+}
+
+.namecharacter {
+  display:inline;
+  width: 80%;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+
+.Info {
+  margin-right: 5px;
+}
+
+.PlayerContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 80%;
+  height: 80%;
+  background-image: url(./Multimedia/Fighterbackground.jpg);
+  background-size: cover;
+  margin-right: 10%;
+  margin-left: 10%;
+  align-items: center;
+  padding-top: 5px;
+  justify-content: space-between;
+  padding-bottom: 7px;
+}
+
+.ImageContainer {
+  height: 80%;
+  width: 80%;
+  background-color: blueviolet;
+  margin-bottom: 4px;
+}
+
+#img1,
+#img2 {
+  width: 100%;
+  height: 100%;
+}
+
+
+body {
+  background-image: url(./Multimedia/Backgroundd.png);
+  background-size: cover;
+}
+
+#MainRow {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 150%;
+  color: blueviolet;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.Info,
+#Throws {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 120%;
+  color: rgb(92, 92, 184);
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+button {
+  background-color: brown;
+  color: white;
+  font-weight: bold;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 4px;
+}

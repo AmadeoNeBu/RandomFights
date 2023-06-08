@@ -1,0 +1,47 @@
+<body>
+  
+<link rel="stylesheet" href="RD.css">
+
+<div id="MainRow" >
+Roll the Power Dice to know the power of your fighter!
+</div>
+
+<!-- Row where the poweer of the characters is shown -->
+<div id="PointsRow" >
+  <div class="PlayerContainer">
+    <div class="namecharacter">You</div>
+    <div class="ImageContainer"><img id="img1" src="./Multimedia/Winnie.jpg" alt=""></div>
+    <div id="PowerNumb1">0</div>
+  </div>
+
+  <div class="PlayerContainer">
+    <div class="namecharacter">Your enemy</div>
+    <div class="ImageContainer"><img id="img2" src="./Multimedia/Oponent1.jpg" alt=""></div>
+    <div id="PowerNumb2">0</div>
+  </div>
+  
+</div>
+
+
+<!-- Row where the action buttons are shown -->
+<div id="ActionRow" >
+
+  <button onclick="Roll()">Roll Power Dice</button>
+  <button onclick="Fight()">Fight</button>
+  <button onclick="Restart()">Restart Game</button>
+
+
+</div>
+
+
+<div id="InfoRow" >
+
+  <div class="Info">Your available rolls are: </div>
+  <div id="Throws">5</div>
+
+</div>
+
+
+
+<script src="./RD.js"></script>
+</body>
